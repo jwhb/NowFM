@@ -1,0 +1,14 @@
+{
+  "name" : "NowFM",
+  "version" : "0.1",
+  "require" : {
+    "metalmatze/lastfm-api-wrapper" : "dev-master",
+    "kriswallsmith/buzz": "dev-proxy as dev-master",
+    "ricbra/php-discogs-api": "dev-master",
+    "mikecao/flight": "dev-master"
+  },
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ]
+}
