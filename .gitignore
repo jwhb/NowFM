@@ -7,3 +7,4 @@ vendor/
 /.settings/
 /.buildpath
 /.project
+/config.php

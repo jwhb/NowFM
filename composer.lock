@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "98c18bc48547386beb2f7a483043eae5",
+    "hash": "e5cb05c99c264f9a3ae90fcac00a1416",
     "packages": [
         {
             "name": "kriswallsmith/buzz",
@@ -108,12 +108,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikecao/flight.git",
-                "reference": "81041d418b2248b5c8d86c5f4676ff8a3e721265"
+                "reference": "eefcd2b55a468f336e88541296e788b79ffc55d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikecao/flight/zipball/81041d418b2248b5c8d86c5f4676ff8a3e721265",
-                "reference": "81041d418b2248b5c8d86c5f4676ff8a3e721265",
+                "url": "https://api.github.com/repos/mikecao/flight/zipball/eefcd2b55a468f336e88541296e788b79ffc55d9",
+                "reference": "eefcd2b55a468f336e88541296e788b79ffc55d9",
                 "shasum": ""
             },
             "require": {
@@ -140,48 +140,7 @@
             ],
             "description": "Flight is a fast, simple, extensible framework for PHP. Flight enables you to quickly and easily build RESTful web applications.",
             "homepage": "http://flightphp.com",
-            "time": "2014-07-10 10:14:06"
-        },
-        {
-            "name": "ricbra/php-discogs-api",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ricbra/php-discogs-api.git",
-                "reference": "43329a0e5e080a52068fc55d9115bfd49e379031"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ricbra/php-discogs-api/zipball/43329a0e5e080a52068fc55d9115bfd49e379031",
-                "reference": "43329a0e5e080a52068fc55d9115bfd49e379031",
-                "shasum": ""
-            },
-            "require": {
-                "kriswallsmith/buzz": ">=0.5",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Discogs": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Richard van den Brand",
-                    "email": "richard@vandenbrand.org"
-                }
-            ],
-            "description": "The Discogs API makes it easy for developers to communicate with the Discogs platform",
-            "keywords": [
-                "api",
-                "discogs"
-            ],
-            "time": "2014-05-09 19:37:25"
+            "time": "2014-07-12 17:37:34"
         }
     ],
     "packages-dev": [
@@ -199,7 +158,6 @@
     "stability-flags": {
         "metalmatze/lastfm-api-wrapper": 20,
         "kriswallsmith/buzz": 20,
-        "ricbra/php-discogs-api": 20,
         "mikecao/flight": 20
     },
     "platform": [
